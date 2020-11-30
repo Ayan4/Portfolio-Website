@@ -89,31 +89,31 @@ nav{
     padding: 0rem 0.5rem;
 }
 
-/** navigation **/
-
-
 /** header **/
 
 .hero {
-    padding: 2rem;
-    padding-top: 5rem;
-
+  margin-top: 40px;
+  border: 1px red solid;
+  display: inline-block;
+  background-image: url(./images/orange\ bg-min.png);
+  background-repeat: no-repeat;
+  min-height: 610px;
+  background-position-x: center;
+  background-size: 370px;
 }
 
-.hero .hero-img {
-    max-width: 350px;
+/* .hero-bg {
+    width: 380px;
     display: block;
     margin: auto;
-}
+} */
 
-.hero .hero-heading {
-    text-align: center;
-    padding-top: 1rem;
-    color: var(--dark-gray);
-}
-
-.hero .hero-heading .heading-inverted {
-    color: var(--primary-color);
+.hero-heading{
+    font-size: 55px;
+    font-weight: 400;
+    border: 1px red solid;
+    display: inline-block;
+    margin-top: 50px;
 }
 
 /** sections **/
