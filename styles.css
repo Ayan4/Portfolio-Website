@@ -1,34 +1,59 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600&display=swap");
 
 :root {
-    --primary-color: #7C3AED;
+    --primary-color: #E85832;
     --off-white: #F3F4F6;
     --dark-gray: #6B7280;
 }
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
-    font-family: 'Montserrat', sans-serif;
-    margin: 0px
+    font-family: 'Raleway', sans-serif;
+    margin: 0 20px;
 }
 
 hr {
     margin: 2rem 0rem;
 }
 
-/** spaces **/
-
-.margin-md {
-    margin: 2rem;
+nav{
+    /* border: 1px black solid; */
+    padding-top:38px;
+    display: inline-block;
+    width: 100%;
 }
 
-/** container **/
-.container {
-    padding: 0rem 1rem;
+.nav-brand{
+    font-size: 21px;
+    font-weight: 500;
+    /* border: 1px red solid; */
+    display: inline-block;
 }
 
-.container-center {
-    max-width: 600px;
-    margin: auto;
+.name-slash{
+    color: var(--primary-color);
+}
+
+.nav-profession{
+    font-size: 15px;
+    padding-top: 11px;
+    font-weight: 400;
+    display: inline-block;
+}
+
+#profession-slash{
+    font-weight: 600;
+    color: var(--primary-color);
+}
+
+.menu-icon{
+    float: right;
+    padding-top: 5px;
 }
 
 /** links **/
@@ -52,8 +77,6 @@ hr {
     border: 1px solid var(--primary-color);
 }
 
-/** look into BEM naming convention for CSS **/
-
 /** lists **/
 
 .list-non-bullet {
@@ -67,28 +90,6 @@ hr {
 
 /** navigation **/
 
-.navigation {
-    background-color: var(--primary-color);
-    color: white;
-    padding: 1rem;
-    border-bottom-left-radius: 1rem;
-}
-
-.navigation .nav-brand {
-    font-weight: bold;
-}
-
-.navigation .nav-pills {
-    text-align: right;
-}
-
-.navigation .link {
-    color: white;
-}
-
-.navigation .link-active {
-    font-weight: bold;
-}
 
 /** header **/
 
