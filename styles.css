@@ -93,27 +93,32 @@ nav{
 
 .hero {
   margin-top: 40px;
-  border: 1px red solid;
+  /* border: 1px red solid; */
   display: inline-block;
-  background-image: url(./images/orange\ bg-min.png);
-  background-repeat: no-repeat;
-  min-height: 610px;
-  background-position-x: center;
-  background-size: 370px;
+  position: relative;
+  width: 100%;
 }
 
-/* .hero-bg {
-    width: 380px;
+.hero-bg {
+    /* width: 380px; */
+    width: 82%;
+    height: 475px;
     display: block;
     margin: auto;
-} */
+}
+
+.hero-div{
+    position: absolute;
+    top: 5px;
+}
 
 .hero-heading{
     font-size: 55px;
     font-weight: 400;
-    border: 1px red solid;
+    /* border: 1px red solid; */
     display: inline-block;
-    margin-top: 50px;
+    /* padding-left: 8px; */
+    /* margin-top: 50px; */
 }
 
 /** sections **/
