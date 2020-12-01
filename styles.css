@@ -365,20 +365,20 @@ padding: 0 20px;
     /* border: 1px red solid; */
     display: flex;
     justify-content: space-between;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 .column-2{
     /* border: 1px red solid; */
     display: flex;
     justify-content: space-between;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 .column-3{
     /* border: 1px red solid; */
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 /** footers **/
