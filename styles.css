@@ -224,11 +224,11 @@ padding: 0 20px;
 .view-more{
     /* width: 200px; */
     width: 100%;
-    height: 40px;
+    height: 50px;
     border: 3px solid var(--black-primary);
     border-radius: 4px;
     font-family: 'Raleway', sans-serif;
-    font-size: 17px;
+    font-size: 19px;
     font-weight: 600;
     color: var(--black-primary);
     background: none;
@@ -240,10 +240,10 @@ padding: 0 20px;
 }
 
 .arrow-icon{
-    width: 19px;
+    width: 20px;
     position: absolute;
-    right: 130px;
-    top: 9px;
+    right: 125px;
+    top: 15px;
 }
 
 /** blogs **/
@@ -260,7 +260,7 @@ padding: 0 20px;
     font-size: 50px;
     color: var(--off-white);
     /* border: 1px red solid; */
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
 
 .blog-slash{
