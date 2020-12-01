@@ -342,6 +342,45 @@ padding: 0 20px;
     width: 18px;
 }
 
+/* Skill Set */
+
+.skillset{
+    background: var(--primary-color);
+    padding: 40px 20px;
+}
+
+.skillset h1{
+    font-weight: 500;
+    font-size: 50px;
+    color: var(--black-primary);
+    /* border: 1px red solid; */
+    margin-bottom: 40px;
+}
+
+/* .skillset img{
+    width: 70px;
+} */
+
+.column-1{
+    /* border: 1px red solid; */
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.column-2{
+    /* border: 1px red solid; */
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.column-3{
+    /* border: 1px red solid; */
+    display: flex;
+    justify-content: space-between;
+}
+
 /** footers **/
 
 .footer {
@@ -350,6 +389,7 @@ padding: 0 20px;
     text-align: center;
     color: white;
     border-top-right-radius: 1rem;
+    display: none;
 }
 
 .footer .link {
