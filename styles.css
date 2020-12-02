@@ -454,7 +454,7 @@ footer{
     }
   }
 
-  @media screen and (max-width: 475px) {
+  @media screen and (max-width: 496px) {
     nav{
         width: 100vw;
         /* background: blue; */
