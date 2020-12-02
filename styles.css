@@ -422,7 +422,7 @@ footer{
 @media screen and (max-width: 768px) {
     nav{
         width: 100vw;
-        padding:38px 35px 0 35px;
+        /* padding:38px 35px 0 35px; */
         /* background: red; */
     }
 
@@ -454,11 +454,11 @@ footer{
     }
   }
 
-  @media screen and (max-width: 496px) {
+  @media screen and (max-width: 475px) {
     nav{
         width: 100vw;
         /* background: blue; */
-        padding:38px 20px 0 20px;
+        /* padding:38px 20px 0 35px; */
     }
 
     .nav-brand{
