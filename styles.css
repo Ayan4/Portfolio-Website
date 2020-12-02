@@ -449,6 +449,16 @@ footer{
         /* padding: 0 35px 0 35px; */
     }
 
+    .hero-bg {
+        /* width: 380px; */
+        /* width: 82%; */
+        /* height: 360px; */
+        /* display: block; */
+        /* margin: auto; */
+        /* filter: blur(8px);
+        -webkit-filter: blur(9px); */
+    }
+
     .prerogative{
         width: 100%;
     }
@@ -481,6 +491,17 @@ footer{
 
     .hero-div{
         padding: 0 20px 0 20px;
+    }
+
+    .hero-bg {
+        /* width: 380px; */
+        /* width: 82%; */
+        /* height: 475px; */
+        height: 380px;
+        /* display: block; */
+        /* margin: auto; */
+        /* filter: blur(8px);
+        -webkit-filter: blur(9px); */
     }
 
     .prerogative{
