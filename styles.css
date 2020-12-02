@@ -427,19 +427,19 @@ footer{
     }
 
     .nav-brand{
-        font-size: 22px;
+        font-size: 25px;
     }
 
     .nav-profession{
-        font-size: 16px;
+        font-size: 19px;
     }
 
     .menu-icon{
-        width: 27px;
+        width: 32px;
     }
 
     .hero-heading{
-        font-size: 47px;
+        font-size: 55px;
         /* line-height: 1.2; */
     }
 
@@ -448,7 +448,7 @@ footer{
     }
   }
 
-  @media screen and (max-width: 404px) {
+  @media screen and (max-width: 475px) {
     nav{
         width: 100vw;
         /* background: blue; */
