@@ -140,6 +140,11 @@ padding: 0 20px;
     margin-top: 25px;
 }
 
+.item-2{
+    /* border: 1px red solid; */
+    margin-top: 40px;
+}
+
 .sr-no{
     font-size: 38px;
     font-weight: 500;
