@@ -430,16 +430,21 @@ footer{
     color: var(--off-white);
     font-weight: 500;
     /* border: 1px red solid; */
-    padding-left: 30px;
+    /* padding-left: 30px; */
 }
 
 .social{
     /* border: 1px red solid; */
-    padding-left: 30px;
-    padding-right: 90px;
+    /* padding-left: 30px; */
+    /* padding-right: 90px; */
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
+    /* padding-right: 30px; */
     margin-top: 17px;
+}
+
+.social a{
+    padding-right: 40px;
 }
 
 .copy{
@@ -447,7 +452,7 @@ footer{
     color: var(--off-white);
     font-weight: 400;
     /* border: 1px red solid; */
-    padding-left: 30px;
+    /* padding-left: 30px; */
     margin-top: 25px;
     font-size: 14px;
 }
@@ -548,8 +553,8 @@ footer{
 
     .social{
         /* border: 1px red solid; */
-        padding-left: 30px;
-        padding-right: 250px;
+        /* padding-left: 30px; */
+        /* padding-right: 250px; */
     }
   }
 
@@ -679,8 +684,8 @@ footer{
     }
 
     .social{
-        padding-left: 30px;
-        padding-right: 40px;
+        /* padding-left: 30px; */
+        /* padding-right: 40px; */
     }
 
     .social img{
@@ -699,7 +704,7 @@ footer{
 
     .social{
         /* border: 1px red solid; */
-        padding-left: 30px;
-        padding-right: 200px;
+        /* padding-left: 30px; */
+        /* padding-right: 200px; */
     }
   }
