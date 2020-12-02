@@ -211,13 +211,15 @@ padding: 0 20px;
 .dot{
     width: 15px;
     height: 15px;
-    /* display: inline-block; */
     background-color: var(--primary-color);
     border-radius: 50%;
-    margin-right: 20px;
-    /* position: absolute;
-    top: 12px;
-    left: 36px; */
+    margin-right: 15px;
+}
+
+.source-btn-content{
+    /* border: 1px red solid; */
+    display: flex;
+    justify-content: center;
 }
 
 .source{
@@ -233,17 +235,21 @@ padding: 0 20px;
     display: inline-block;
     float: right;
     position: relative;
-    padding-right: 30px;
+    /* padding-right: 30px; */
     margin-top: 20px;
     outline: none;
     cursor: pointer;
 }
 
 .source-icon{
-    position: absolute;
-    top: 9px;
     width: 22px;
-    right: 30px;
+    margin-left: 10px;
+}
+
+.view-more-btn-content{
+    display: flex;
+    /* border: 1px red solid; */
+    justify-content: center;
 }
 
 .view-more{
@@ -259,16 +265,14 @@ padding: 0 20px;
     background: none;
     position: relative;
     margin-top: 20px;
-    padding-right: 40px;
+    /* padding-right: 40px; */
     outline: none;
     cursor: pointer;
 }
 
 .arrow-icon{
     width: 20px;
-    position: absolute;
-    right: 125px;
-    top: 14px;
+    margin-left: 20px;
 }
 
 /** blogs **/
@@ -294,7 +298,8 @@ padding: 0 20px;
 }
 
 .blog-pic1{
-    width: 330px;
+    /* width: 330px; */
+    width: 80%;
     /* border: 1px red solid; */
     display: block;
     margin: -45px auto 0 auto;
@@ -339,6 +344,12 @@ padding: 0 20px;
     margin-bottom: 80px;
 }
 
+.all-blog-btn-content{
+    display: flex;
+    /* border: 1px red solid; */
+    justify-content: center;
+}
+
 .all-blogs{
     width: 215px;
     height: 45px;
@@ -352,7 +363,7 @@ padding: 0 20px;
     display: inline-block;
     float: right;
     position: relative;
-    padding-right: 25px;
+    /* padding-right: 25px; */
     margin-top: 20px;
     outline: none;
     cursor: pointer;
@@ -361,10 +372,8 @@ padding: 0 20px;
 }
 
 .arrow-white{
-    position: absolute;
-    top: 13px;
-    right: 32px;
     width: 18px;
+    margin-left: 12px;
 }
 
 /* Skill Set */
@@ -486,10 +495,7 @@ footer{
     }
     
     .dot{
-        /* width: 14px; */
-        /* height: 14px; */
-        top: 10px;
-        left: 26px;
+        margin-right: 15px;
     }
 
     .source{
@@ -499,10 +505,8 @@ footer{
     }
     
     .source-icon{
-        position: absolute;
-        top: 8px;
+        margin-left: 10px;
         width: 20px;
-        right: 20px;
     }
 
     .view-more{
@@ -515,9 +519,7 @@ footer{
     
     .arrow-icon{
         width: 18px;
-        position: absolute;
-        right: 90px;
-        top: 10px;
+        margin-left: 20px;
     }
 
     .read-more{
@@ -533,10 +535,18 @@ footer{
     }
     
     .arrow-white{
-        position: absolute;
-        top: 12px;
-        right: 17px;
         width: 16px;
+        margin-left: 12px;
+    }
+
+    .copy{
+        font-size: 13px;
+    }
+
+    .social{
+        /* border: 1px red solid; */
+        padding-left: 30px;
+        padding-right: 250px;
     }
   }
 
@@ -594,10 +604,9 @@ footer{
     }
     
     .dot{
-        width: 14px;
-        height: 14px;
-        top: 10px;
-        left: 26px;
+        width: 13.5px;
+        height: 13.5px;
+        margin-right: 10px;
     }
 
     .source{
@@ -607,10 +616,8 @@ footer{
     }
     
     .source-icon{
-        position: absolute;
-        top: 8px;
+        margin-left: 10px;
         width: 20px;
-        right: 20px;
     }
 
     .view-more{
@@ -623,9 +630,8 @@ footer{
     
     .arrow-icon{
         width: 18px;
-        position: absolute;
-        right: 90px;
-        top: 10px;
+        margin-left: 20px;
+
     }
 
     .read-more{
@@ -641,17 +647,15 @@ footer{
     }
     
     .arrow-white{
-        position: absolute;
-        top: 12px;
-        right: 17px;
+        margin-left: 12px;
         width: 16px;
     }
 
-    .blog-pic1{
+    /* .blog-pic1{
         width: 80%;
         display: block;
         margin: -45px auto 0 auto;
-    }
+    } */
 
     .blog-title{
         font-size: 23px;
@@ -679,10 +683,20 @@ footer{
     .social img{
         width: 85%;
     }
+
+    .copy{
+        font-size: 10px;
+    }
   }
 
   @media screen and (min-width: 580px){
     .hero{
         height: 370px;
+    }
+
+    .social{
+        /* border: 1px red solid; */
+        padding-left: 30px;
+        padding-right: 200px;
     }
   }
