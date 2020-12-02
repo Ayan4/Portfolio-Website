@@ -476,7 +476,7 @@ footer{
     .hero-heading{
         font-size: 43px;
         /* font-size: 30px; */
-        /* line-height: 0; */
+        line-height: 1.25;
     }
 
     .hero-div{
