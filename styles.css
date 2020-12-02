@@ -68,13 +68,15 @@ nav{
   display: inline-block;
   position: relative;
   width: 100%;
+  height: 475px;
   /* padding: 0 20px 0 20px; */
 }
 
 .hero-bg {
     /* width: 380px; */
     width: 82%;
-    height: 475px;
+    /* height: 475px; */
+    height: 100%;
     display: block;
     margin: auto;
     filter: blur(8px);
@@ -87,15 +89,28 @@ nav{
     top: 5px;
     padding: 0 20px 0 20px;
     /* border: 1px red solid; */
+    height: 100%;
+    /* display: flex; */
+    /* margin: auto 0; */
+}
+
+.text{
+    /* border: black solid 1px; */
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    height: 100%;
+    /* padding-top: 30px; */
 }
 
 .hero-heading{
     font-size: 55px;
     font-weight: 400;
-    display: inline-block;
+    /* display: inline-block; */
     color: var(--black);
-    /* display: none; */
+    /* display: flex; */
     text-align: left;
+    /* margin: auto; */
     /* border: red solid 1px; */
 }
 
@@ -420,47 +435,6 @@ footer{
     font-size: 14px;
 }
 
-@media screen and (max-width: 768px) {
-    nav{
-        width: 100%;
-        /* background: red; */
-    }
-
-    .nav-brand{
-        font-size: 25px;
-    }
-
-    .nav-profession{
-        font-size: 19px;
-    }
-
-    .menu-icon{
-        width: 32px;
-    }
-
-    .hero-heading{
-        font-size: 55px;
-        line-height: 1.22;
-        /* padding:38px 35px 0 35px; */
-        /* border: 1px red solid; */
-    }
-
-    .hero-bg {
-        /* padding-top: 3%; */
-        height: 380px;
-    }
-
-    .prerogative{
-        width: 100%;
-    }
-
-    .hero-div{
-        /* padding: 0 20px 0 20px; */
-        /* border: 1px red solid; */
-        margin: 0;
-    }
-  }
-
   @media screen and (max-width: 475px) {
     nav{
         width: 100vw;
@@ -487,7 +461,7 @@ footer{
         padding: 0 20px 0 20px;
     }
 
-    .hero-bg {
+    .hero{
         height: 380px;
     }
 
@@ -590,6 +564,51 @@ footer{
 
     .social img{
         width: 85%;
+    }
+  }
+
+  @media screen and (min-width: 580px){
+    .hero{
+        height: 370px;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    nav{
+        width: 100%;
+        /* background: red; */
+    }
+
+    .nav-brand{
+        font-size: 55px;
+    }
+
+    .nav-profession{
+        font-size: 19px;
+    }
+
+    .menu-icon{
+        width: 32px;
+    }
+
+    .hero{
+        /* border: 1px red solid; */
+    }
+
+    .hero-heading{
+        font-size: 55px;
+        line-height: 1.22;
+        /* padding:38px 35px 0 35px; */
+        /* border: 1px red solid; */
+    }
+
+    .hero-bg {
+        /* padding-top: 3%; */
+        /* height: 380px; */
+    }
+
+    .prerogative{
+        width: 100%;
     }
   }
 
