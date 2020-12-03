@@ -36,6 +36,7 @@ a{
     top: 0;
     z-index: 100;
     padding: 30px 25px 0 25px;
+    overflow-x: hidden;
     /* transform: translateX(977px); */
     /* transition: transform .6s ease-in-out; */
     display: none;
@@ -554,6 +555,7 @@ footer{
         display: block;
         transform: translateX(770px);
         transition: transform .5s ease-in-out;
+        overflow-x: hidden;
     }
 
     .sidepanel-open{
@@ -665,6 +667,7 @@ footer{
         display: block;
         transform: translateX(480px);
         transition: transform .5s ease-in-out;
+        overflow-x: hidden;
     }
 
     .sidepanel-open{
