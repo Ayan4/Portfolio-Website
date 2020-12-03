@@ -19,6 +19,7 @@
 body {
     font-family: 'Raleway', sans-serif;
     background:var(--off-white);
+    overflow-x: hidden;
     /* margin: 0 20px; */
 }
 
@@ -35,8 +36,9 @@ a{
     top: 0;
     z-index: 100;
     padding: 30px 25px 0 25px;
-    transform: translateX(377px);
-    transition: transform .6s ease-in-out;
+    /* transform: translateX(977px); */
+    /* transition: transform .6s ease-in-out; */
+    display: none;
 }
 
 .cross{
@@ -126,6 +128,7 @@ nav{
     width: 32px;
     color: var(--black);
     cursor: pointer;
+    display: none;
 }
 
 /** header **/
@@ -530,6 +533,10 @@ footer{
 }
 
 @media screen and (max-width: 768px) {
+    body{
+        overflow-x: hidden;
+    }
+
     nav{
         width: 100%;
         /* background: red; */
@@ -544,7 +551,13 @@ footer{
         top: 0;
         z-index: 100;
         padding: 30px 25px 0 25px; */
+        display: block;
         transform: translateX(768px);
+        transition: transform .5s ease-in-out;
+    }
+
+    .sidepanel-open{
+        transform: translateX(0px);
     }
 
     .social-side{
@@ -567,6 +580,7 @@ footer{
     }
 
     .menu-icon{
+        display: block;
         width: 32px;
     }
 
@@ -641,6 +655,16 @@ footer{
   @media screen and (max-width: 475px) {
     nav{
         width: 100vw;
+    }
+
+    .sidepanel{
+        display: block;
+        transform: translateX(470px);
+        transition: transform .5s ease-in-out;
+    }
+
+    .sidepanel-open{
+        transform: translateX(0px);
     }
 
     .nav-brand{
