@@ -528,6 +528,18 @@ footer{
 }
 
 @media screen and (max-width: 768px) {
+    .sidepanel{
+        /* height: 100vh;
+        width: 100vw;
+        color: var(--off-white);
+        background: var(--black-primary);
+        position: absolute;
+        top: 0;
+        z-index: 100;
+        padding: 30px 25px 0 25px; */
+        transform: translateX(768px);
+    }
+
     nav{
         width: 100%;
         /* background: red; */
@@ -545,20 +557,11 @@ footer{
         width: 32px;
     }
 
-    .hero{
-        /* border: 1px red solid; */
-    }
-
     .hero-heading{
         font-size: 55px;
         line-height: 1.22;
         /* padding:38px 35px 0 35px; */
         /* border: 1px red solid; */
-    }
-
-    .hero-bg {
-        /* padding-top: 3%; */
-        /* height: 380px; */
     }
 
     .project-pic{
@@ -619,12 +622,6 @@ footer{
 
     .copy{
         font-size: 13px;
-    }
-
-    .social{
-        /* border: 1px red solid; */
-        /* padding-left: 30px; */
-        /* padding-right: 250px; */
     }
   }
 
@@ -753,11 +750,6 @@ footer{
         height: 80px;
     }
 
-    .social{
-        /* padding-left: 30px; */
-        /* padding-right: 40px; */
-    }
-
     .social img{
         width: 85%;
     }
@@ -770,11 +762,5 @@ footer{
   @media screen and (min-width: 580px){
     .hero{
         height: 370px;
-    }
-
-    .social{
-        /* border: 1px red solid; */
-        /* padding-left: 30px; */
-        /* padding-right: 200px; */
     }
   }
