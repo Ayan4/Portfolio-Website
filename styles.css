@@ -552,7 +552,7 @@ footer{
         z-index: 100;
         padding: 30px 25px 0 25px; */
         display: block;
-        transform: translateX(768px);
+        transform: translateX(770px);
         transition: transform .5s ease-in-out;
     }
 
@@ -653,13 +653,17 @@ footer{
   }
 
   @media screen and (max-width: 475px) {
+    body{
+        overflow-x: hidden;
+    }
+
     nav{
         width: 100vw;
     }
 
     .sidepanel{
         display: block;
-        transform: translateX(470px);
+        transform: translateX(480px);
         transition: transform .5s ease-in-out;
     }
 
