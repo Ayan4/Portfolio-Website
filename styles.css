@@ -786,19 +786,17 @@ footer{
     }
   }
 
-  @media screen and (max-width: 768px){
+ /*  @media screen and (max-width: 768px){
     .hero-heading{
         font-size: 55px;
-        /* font-size: 35px; */
         line-height: 1.22;
-        /* border: 1px red solid; */
     }
     
     .hero-div{
         top: -5px;
         width: 100%;
     }
-}
+} */
 
 /* ********************************************************************************************************************** */
 
