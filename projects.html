@@ -3,58 +3,117 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="styles.css" rel="stylesheet" />
-    <title>projects | adarshbalika</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Projects | Ayan Shukla</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src='app.js' defer></script>
 </head>
 <body>
-    <nav class="navigation container">
-        <div class="nav-brand">IAMDEVELOPER</div>
-        <ul class="list-non-bullet nav-pills">
-            <li class="list-item-inline">
-                <a class="link" href="/">home</a>
-            </li>
-            <li class="list-item-inline">
-                <a class="link link-active" href="/projects.html">projects</a>
-            </li>
-            <li class="list-item-inline">
-                <a class="link" href="/blogs.html">blogs</a>
-            </li>
-        </ul>
-    </nav>
-
-    <header class="hero">
-        <h1 class="hero-heading">see my <span class="heading-inverted"> code</span></h1>
-    </header>
-
-    <ul class="list-non-bullet">
-
-        <li>
-            <div class="container container-center">
-                <h1>marvel fan?</h1>
-            <small>November, 2020</small>
-            <p>A CLI app built with <strong>nodeJS</strong>. You can send this to your friends and find out who really knows you</p>
-
-            <a class="link link-primary" href="https://repl.it/@tanaypratap">Live Project</a>
-            <a class="link link-secondary" href="https://github.com/tanaypratap/the-project-repo">View Source</a>
-
+    <div class="wrapper">
+            <div class="sidepanel">
+                <img src="./images/cross.svg" alt="" class="cross">
+                <div class="sidepanel-content">
+                    <a href="index.html"><h1 class='side-font home-side'>Home</h1></a>
+                    <a href="projects.html"><h1 class='side-font projects-side active'>Projects</h1></a>
+                    <a href="blogs.html"><h1 class='side-font blogs-side'>Blogs</h1></a>
+                </div>
+                <div class="social-div">
+                    <p><span>Find</span> Me Here</p>
+                    <div class="social-side">
+                    <a href=""><img src="./images/footer-icons/git.svg" alt=""></a>
+                    <a href=""><img src="./images/footer-icons/twitter.svg" alt=""></a>
+                    <a href=""><img src="./images/footer-icons/linkedin.svg" alt=""></a>
+                    <a href=""><img src="./images/footer-icons/instagram.svg" alt=""></a>
+                </div>
+                </div>
             </div>
-            
-        </li>
-
-        <li>
-            <div class="container container-center">
-                <h1>how well do you know me?</h1>
-                <small>November, 2020</small>
-                <p>A CLI app built with <strong>nodeJS</strong>. You can send this to your friends and find out who really knows you</p>
+        <nav>
+            <div class="nav-brand"><span class='name-slash'>/ </span>Ayan Shukla<span class='name-slash'> /</span></div>
+            <!-- <img class='menu-icon' src="./images/menu-dark.svg" alt=""> -->
+            <img class='menu-icon' src="./images/icons/menu-alt.svg" alt="">
+            <br>
+            <div class="nav-profession">Web Developer <span id='profession-slash'> / </span>Designer</div>
     
-                <a class="link link-primary" href="https://repl.it/@tanaypratap">Live Project</a>
-                <a class="link link-secondary" href="https://github.com/tanaypratap/the-project-repo">View Source</a>
+            <div class="nav-tabs">
+                <a href="index.html"><p class="home-tab">Home</p></a>
+                <a href="projects.html"><p class="projects-tab active-large">Projects</p></a>
+                <a href="blogs.html"><p class="blog-tab">Blog</p></a>
             </div>
+        </nav>
+
+        <section class="projects project-page">
+                <h1><span class='prj-slash'>/</span> Featured Projects</h1>
+                
+                <div class="project-item">
+                    
+                    <img class='project-pic' src="./images/prerogative.png" alt="">
+                    
+                    <div class="flex-2">
+                        <h3 class='prj-title'><span class='sr-no'>1.</span> Prerogative Clothing Store</h3>
+                        <p class='website-info'>E-Commerce Website</p>
+                        <p class='project-desc'>Full fledged landing page for Prerogative Clothing's website that has an aesthetic user interface design and utilizes Greensock animation library based on javascript.</p>
             
-        </li>
+                        <button class='demo'>
+                            <div class="demo-btn-content">
+                                <div class='dot'></div>
+                                <span>Live Demo</span>
+                            </div>
+                        </button>
+            
+                        <button class='source'>
+                            <div class="source-btn-content">
+                                View Source
+                                <img class='source-icon' src="./images/github-icon.svg" alt="">
+                            </div>
+                        </button>
+                    </div>
+                </div>
 
-    </ul>
+                <hr>
+                
+                <div class="project-item item-2">
+                    
+                    <img class='project-pic' src="./images/xylo.png" alt="">
+                    
+                    <div class="flex-2">
+                        <h3 class='prj-title'><span class='sr-no'>2.</span> Xylo Project Manager</h3>
+                        <p class='website-info'>Utility Application</p>
+                        <p class='project-desc'>Xylo Project Planner, made with HTML, CSS and JavaScript helps you manage your projects better and 2x your productivity.</p>
+            
+                        <button class='demo'>
+                            <div class="demo-btn-content">
+                                <div class='dot'></div>
+                                <span>Live Demo</span>
+                            </div>
+                        </button>
+            
+                        <button class='source'>
+                            <div class="source-btn-content">
+                                View Source
+                                <img class='source-icon' src="./images/github-icon.svg" alt="">
+                            </div>
+                        </button>
+        
+                    </div>
+                </div>
+            </section>
+        </div>
 
-    
+        <footer class="footer">
+                <div class="footer-wrapper">
+                    <div class="footer-flex">
+                        <p class='connect'>Let's Connect</p>
+                        <div class="social">
+                            <a href=""><img src="./images/footer-icons/git.svg" alt=""></a>
+                            <a href=""><img src="./images/footer-icons/twitter.svg" alt=""></a>
+                            <a href=""><img src="./images/footer-icons/linkedin.svg" alt=""></a>
+                            <a href=""><img src="./images/footer-icons/instagram.svg" alt=""></a>
+                        </div>
+                    </div>
+            
+                    <p class='copy'>© Copyright Ayan Shukla</p>
+                </div>
+            </footer>
+    </div>
 </body>
 </html>
