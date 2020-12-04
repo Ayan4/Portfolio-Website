@@ -487,6 +487,7 @@ box-shadow: 3px 5px 16px 5px rgba(0,0,0,0.24);
     display: block;
     margin: auto;
     /* margin: -45px auto 0 auto; */
+    border-radius: 10px;
 }
 
 .blog-title{
@@ -685,9 +686,19 @@ footer{
     font-weight: 500;
 }
 
-.blog-page-btn{
+/* .blog-page-btn{
     border: 3px solid var(--black-primary);
     color: var(--black-primary);
+} */
+
+.more-blogs{
+    /* border: 1px red solid; */
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    font-weight: 500;
+    color: var(--black-primary);
+    font-size: 15px;
 }
 
 /* ********************************************************************************************************************* */
@@ -957,8 +968,7 @@ footer{
     }
     
     .blog-page-btn{
-        border: 3px solid var(--black-primary);
-        color: var(--black-primary);
+        width: 100%;
     }
   }
 
@@ -1233,8 +1243,7 @@ footer{
     }
 
     .blog-page-btn{
-        border: 3px solid var(--black-primary);
-        color: var(--black-primary);
+        width: 100%;
     } 
   }
 
