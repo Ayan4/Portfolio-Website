@@ -65,7 +65,7 @@ a{
 }
 
 .sidepanel-content{
-    border: 1px red solid;
+    /* border: 1px red solid; */
     display: flex;
     flex-direction: column;
     width: 70%;
@@ -694,7 +694,7 @@ footer{
     }
 
     .sidepanel-open{
-        transform: translateX(0px);
+        transform: translateX(-20px);
         overflow: hidden;
     }
 
@@ -953,7 +953,7 @@ footer{
     }
 
     .sidepanel-open{
-        transform: translateX(0px);
+        transform: translateX(-20px);
     }
 
     .nav-brand{
