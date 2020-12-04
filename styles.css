@@ -632,6 +632,10 @@ footer{
     /* padding-left: 30px; */
 }
 
+.connect-or{
+    color: var(--primary-color);
+}
+
 .social{
     /* border: 1px red solid; */
     /* padding-left: 30px; */
