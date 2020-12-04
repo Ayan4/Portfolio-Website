@@ -1133,10 +1133,11 @@ footer{
         background: var(--black-primary);
         padding: 30px 20px 1px 20px;
         margin-top: 15px;
+        /* border: 1px red solid; */
     }
 
     .blogs h1{
-        margin-bottom: 40px;
+        margin-bottom: 20px;
     }
 
     .blog-item{
@@ -1211,28 +1212,42 @@ footer{
     /* margin-top: 65px; */
 }
 
-.blog-page h1{
-    margin-top: 0;
-    color: var(--black-primary);
-    font-size: 35px;
-}
+    .blog-page h1{
+        margin-top: 0;
+        color: var(--black-primary);
+        font-size: 35px;
+    }
 
-.blog-title-page{
-    color: var(--black-primary);
-    font-weight: 500;
-}
+    .blog-title-page{
+        color: var(--black-primary);
+        font-weight: 500;
+    }
 
-.blog-page-desc{
-    color: var(--black-primary);
-    font-weight: 500;
-}
+    .blog-page-desc{
+        color: var(--black-primary);
+        font-weight: 500;
+    }
 
-.blog-page-btn{
-    border: 3px solid var(--black-primary);
-    color: var(--black-primary);
-}
-    
+    .blog-page-btn{
+        border: 3px solid var(--black-primary);
+        color: var(--black-primary);
+    } 
   }
+
+  @media screen and (max-width: 373px){
+    .hero-heading{
+        font-size: 36px;
+        line-height: 1.22;
+    }
+    
+    .projects h1{
+        font-size: 30px;
+    }
+
+    .skillset h1{
+        font-size: 45px;
+    }
+}
 
   @media screen and (min-width: 580px){
     .hero{
